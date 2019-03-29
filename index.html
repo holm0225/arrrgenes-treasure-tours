@@ -22,7 +22,7 @@
       <i class="icon i-32 push-r-1-4"><img src="images/logo.svg" alt=""></i>
       <span class="logo-text giga icon-label text-left">Arrrgene’s Treasure Tours</span>
     </h1>
-    <nav class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2" role="navigation">
+    <nav class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2" role="navigation" tabindex="0" id="nav">
       <ul class="list-group-inline mega push-0">
         <li><a class="ib gutter-1-4" href="#"><span>Tours</span></a></li>
         <li><a class="ib gutter-1-4" href="#"><span>Ships</span></a></li>
@@ -31,7 +31,9 @@
     </nav>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
+
+    <section>
     <div class="banner embed embed-16by9">
       <img class="embed-item" src="images/banner.jpg" alt="">
       <div class="banner-content pin-c w-1 max-length gutter text-center">
@@ -40,7 +42,9 @@
         <a class="btn btn-ghost btn-banner bold" href="#">Book a tour</a>
       </div>
     </div>
+  </section>
 
+  <section>
     <div class="island">
       <div class="card embed embed-golden">
         <div class="card-content pin-c w-1 max-length gutter text-center">
@@ -51,6 +55,8 @@
         </div>
       </div>
     </div>
+  </section>
+
   </main>
 
   <footer class="footer micro text-center island-1-2" role="contentinfo">
